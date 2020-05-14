@@ -2,7 +2,9 @@
 
 <div>
   <ul><% @cocktails.each do |cocktail| %>
-     <li><%= cocktail.name %></li>
+     <li><%= cocktail.name %> | <%= link_to 'Show', cocktail %></li>
     <% end %>
   </ul>
 </div>
+
+<%= link_to 'New Cocktail', new_cocktail_path %> |
