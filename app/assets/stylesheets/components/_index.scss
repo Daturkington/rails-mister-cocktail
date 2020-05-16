@@ -2,5 +2,17 @@
 @import "alert";
 @import "avatar";
 @import "navbar";
-@import "background";
+@import "banner";
+@import "button";
 @import "card";
+
+.container {
+  text-align: center;
+  padding: 24px;
+}
+
+.container h1 {
+  font-family: Georgia;
+  font-size: 32px;
+  margin: 16px;
+}
