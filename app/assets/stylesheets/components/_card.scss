@@ -1,9 +1,11 @@
 .cards {
+  border-top: solid #97948C;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
   color: white;
   margin: 24px;
+  padding: 16px;
 }
 .card-category {
   background-size: cover;
@@ -20,6 +22,56 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+.card-category h2 > a{
+  color: white;
+  font-family: "Georgia";
+  font-size: 32px;
+}
+
+.container-show {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.image-left {
+  background-size: cover;
+  height: 100vh;
+  width: 50%;
+}
+
+.container-ingredient {
+  padding-right: 10%;
+  padding-top: 3%;
+}
+
+.container-ingredient h1{
+  font-family: "Georgia";
+}
+
+.container-ingredient ul {
+  list-style: none;
+}
+
+.container-ingredient a {
+  color: black;
+}
+
+.container-form {
+padding-left: 180px;
+padding-right:180px;
+padding-top: 160px;
+}
+
+.container-form h1 {
+  font-family: "Georgia";
+}
+
+.container-form a {
+  margin-top: 16px;
+}
+
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {

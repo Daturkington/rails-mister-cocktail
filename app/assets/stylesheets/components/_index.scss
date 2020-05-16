@@ -6,9 +6,14 @@
 @import "button";
 @import "card";
 
+body {
+  background-color: #FFFBEE;
+}
+
 .container {
   text-align: center;
   padding: 24px;
+  font-family: "Georgia";
 }
 
 .container h1 {
